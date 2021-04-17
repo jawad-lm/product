@@ -36,6 +36,8 @@ void checkexpdate() {
 			System.out.println("this product is still good!!! ");
 		}
 	}
+void total () {
+	System.out.println("The total of this product is  $" + this.price * this.qty);
 }
  
 
